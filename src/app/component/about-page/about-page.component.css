@@ -9,7 +9,7 @@
 
 .title{
     height: 200px;
-    align-items: center;
+    text-align: center;
     background-color: black;
     color: white;
 }
@@ -54,21 +54,23 @@
 
  @media (min-width: 300px) {
     h3{
-       font-size: 9px;
+       font-size: 11px;
        text-align: center;
     }
 
     .title{
         height: 70px;
         font-size: 15px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .text-about{
         display: flex;
         justify-content: center;
-        padding: 5px;
+        padding: 0px;
         height: auto;
-        width: 95%;
+        width: 97%;
     }
    .container-about{
       display: flex;
