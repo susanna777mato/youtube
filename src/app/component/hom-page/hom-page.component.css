@@ -58,7 +58,6 @@ span:hover{
     align-items: center;
     height: 100vh;
     
-    /* Высота всей видимой части экрана */
   }
   
  .zagalovok{
@@ -67,8 +66,7 @@ span:hover{
   }
   
   .img-me {
-    /* width: 850px;
-    height: 550px; */
+
     margin-left: 80px;
   }
   
@@ -79,7 +77,7 @@ span:hover{
 
 
 
-  @media (min-width: 200px) and (max-width: 1400px) {
+   @media (min-width: 200px) {
     span{
         font-size: 6px;
     }
@@ -107,37 +105,72 @@ span:hover{
     } 
 
         .zagalovok {
-          font-size: 32px;
+          font-size: 37px;
         }
       
          .img-me {
-          width: 100%;
+          width: 300px;
           height: 170px;
           margin-left: 0;
-          background-color: blue;
          
         } 
 
        .p-text{
-        font-size: 20px;
+        font-size: 27px;
+        width: 300px;
        }
+
         .container {
-          flex-direction: column; /* Размещаем элементы вертикально на маленьких экранах */
-          text-align: center; /* Центрируем текст */
+          flex-direction: column; 
+          text-align: center;
           justify-content: center;
-          gap: 10px;
-          
+          gap: 70px;
           width: 100%;
 
         }
       
         .text {
-            height: 100%;
+            margin-top: 30px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-left: 0; /* Убираем отступ на маленьких экранах */
+            margin-left: 0; 
         }
       
-  }
+        @media (min-width: 340px){
+            .img-me {
+                width: 340px;
+                height: 200px;
+               
+              } 
+        }
+
+        @media (min-width: 390px)  {
+            .img-me {
+                width: 390px;
+                height: 220px;
+               
+              } 
+
+              .zagalovok{
+                font-size: 40px;
+              }
+             .container{
+                gap: 40px;
+             }
+        }
+
+        @media (min-width: 470px)  {
+            .img-me {
+                width: 460px;
+                height: 250px;
+               
+              } 
+
+              .zagalovok{
+                font-size: 40px;
+              }
+             .container{
+                gap: 10px;
+             }
+        }
+  } 
