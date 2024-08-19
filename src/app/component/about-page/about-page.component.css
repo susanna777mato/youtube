@@ -63,6 +63,7 @@
         font-size: 15px;
         display: flex;
         align-items: flex-end;
+        padding-bottom: 8px;
     }
 
     .text-about{
@@ -147,12 +148,17 @@
      }
   
    h3{
-    font-size: 11px;
+    font-size: 12px;
    }
 } 
 
 @media (min-width: 410px) {
- 
+      
+    h3{
+        font-size: 13px;
+    }
+
+
     .img-div{
         height: 230px;
         padding: 20px;
@@ -178,15 +184,14 @@
          height: 150px;
      }
   
-     h3{
-        font-size: 11px;
-     }
-
 } 
 
 @media (min-width: 460px) {
-
-
+      
+      h3{
+        font-size: 13px;
+      }
+     
      .img-1{
         left: 27px;
      }
@@ -194,26 +199,21 @@
      .img-3{
         right: 27px;
      }
-  
-     h3{
-        font-size: 11px;
-     }
 
 } 
 
 @media (min-width: 490px) {
-
-
+ 
+     h3{
+        font-size: 14px;
+     }
+    
     .img-1{
        left: 35px;
     }
 
     .img-3{
        right: 35px;
-    }
- 
-    h3{
-       font-size: 11px;
     }
 
 } 
@@ -241,10 +241,6 @@
      .img-2{
          width: 180px;
          height: 170px;
-     }
-  
-     h3{
-        font-size: 11px;
      }
 
 }  

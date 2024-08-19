@@ -200,6 +200,13 @@ span:hover{
               }
         } 
 
+        @media (min-width: 380px) {
+              .container{
+                display: flex;
+                gap: 50px;
+              }
+        }
+
         @media (min-width: 385px){
              .img-me{
                 width: 360px;
@@ -231,9 +238,7 @@ span:hover{
                 font-size: 31px;
               }
 
-             .container{
-                gap: 20px;
-             }
+            
         }
 
         @media (min-width: 409px)  { 
@@ -256,7 +261,7 @@ span:hover{
               }
               
              .container{
-                gap: 2px;
+                gap: 10px;
              }
         }
   } 
