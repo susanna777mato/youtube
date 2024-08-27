@@ -34,8 +34,12 @@ export class RevievsComponent implements OnInit {
           slidesPerView: 2
         },
 
+        420:{
+          slidesPerView: 3
+        },
+
         620:{
-          slidesPerView: 1
+          slidesPerView: 4
         }
         ,
         1024:{
