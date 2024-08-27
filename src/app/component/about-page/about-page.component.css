@@ -52,7 +52,7 @@
 }
 
 
- @media (min-width: 300px) {
+ @media (min-width: 300px) and (max-width: 1000px) {
     h3{
        font-size: 11px;
        text-align: center;
