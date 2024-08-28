@@ -9,6 +9,8 @@ import { AdvantagesComponent } from './component/advantages/advantages.component
 import { RevievsComponent } from './component/revievs/revievs.component';
  import Swiper from 'swiper';
 import { FormsModule } from '@angular/forms';
+import { AtworkComponent } from './component/atwork/atwork.component';
+import { ResourcesComponent } from './components/resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { FormsModule } from '@angular/forms';
     AboutPageComponent,
     ChanalsPageComponent,
     AdvantagesComponent,
-    RevievsComponent
+    RevievsComponent,
+    AtworkComponent,
+    ResourcesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule
   ],
   providers: [Swiper],
-  bootstrap: [AppComponent, FormsModule]
+  bootstrap: [AppComponent,]
 })
 export class AppModule { }
