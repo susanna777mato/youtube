@@ -7,12 +7,24 @@
     background-color: black;
 }
 
+h3{
+    font-family: 'Uni Sans', sans-serif;
+}
+
 .title{
-    height: 200px;
+    height: 100px;
     text-align: center;
     background-color: black;
     color: white;
 }
+
+
+.title, h1{
+    font-family: 'Uni Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
 
 .img-div{
     display: flex;
@@ -52,11 +64,17 @@
 }
 
 
- @media (min-width: 300px) and (max-width: 1000px) {
+ @media (max-width: 1000px) {
     h3{
        font-size: 11px;
        text-align: center;
     }
+
+    
+.title, h1{
+    margin-top: 0px;
+    font-size: 40px;
+}
 
     .title{
         height: 70px;
@@ -120,7 +138,7 @@
 
 } 
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 410px) {
  
     .img-div{
         padding: 15px;
@@ -152,7 +170,7 @@
    }
 } 
 
-@media (min-width: 410px) {
+@media (min-width: 410px) and (max-width: 530px)  {
       
     h3{
         font-size: 13px;
@@ -186,7 +204,7 @@
   
 } 
 
-@media (min-width: 460px) {
+@media (min-width: 460px) and (max-width: 490px)  {
       
       h3{
         font-size: 13px;
@@ -202,12 +220,11 @@
 
 } 
 
-@media (min-width: 490px) {
+@media (min-width: 490px) and (max-width: 530px)  {
  
-     h3{
+    h3{
         font-size: 14px;
      }
-    
     .img-1{
        left: 35px;
     }
@@ -218,7 +235,7 @@
 
 } 
 
-@media (min-width: 530px) {
+@media (min-width: 530px) and (max-width: 1000px) {
 
 
     .img-div{
@@ -236,7 +253,9 @@
         height: 170px;
     }
 
-   
+    h3{
+        font-size: 14px;
+     }
   
      .img-2{
          width: 180px;

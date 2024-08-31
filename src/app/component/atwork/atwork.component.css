@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 70px;
     min-height: 100vh;
   }
   
@@ -11,10 +12,25 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-left: 40px;
   }
+
+  a{
+    color: rgb(255, 29, 86) ;
+  }
+
+  h2,h3,p{
+    font-family: 'Uni Sans', sans-serif;
+  }
+
+
+  .input-range1, .input-range2 {
+    width: 80%;
+  }
+
   
   .h2-zarabotai {
-    font-size: 40px;
+    font-size: 60px;
   }
   
   .kalklator {
@@ -62,7 +78,7 @@
   .range-values {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 67%;
   }
   
   .input-text1, .input-text2 {
@@ -80,6 +96,16 @@
     justify-content: space-around;
     width: 400px;
     height: 350px;
+  }
+
+  .text-content p {
+    padding-top: 15px;
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .income-amount{
+    font-size: 50px;
   }
   
   .chel-vachkax {
@@ -136,9 +162,7 @@
     }
   
 
-  
-  
-    p {
+    .text-content p {
       font-size: 12px;
       text-align: center;
        padding: 3px;
@@ -208,6 +232,8 @@
           font-size: 40px;
         }
     }
+
+    
 
   } 
 

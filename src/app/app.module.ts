@@ -11,6 +11,11 @@ import { RevievsComponent } from './component/revievs/revievs.component';
 import { FormsModule } from '@angular/forms';
 import { AtworkComponent } from './component/atwork/atwork.component';
 import { ResourcesComponent } from './components/resources/resources.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+import { RouterModule, Routes } from '@angular/router';
+
+
 
 @NgModule({
   declarations: [
@@ -21,10 +26,11 @@ import { ResourcesComponent } from './components/resources/resources.component';
     AdvantagesComponent,
     RevievsComponent,
     AtworkComponent,
-    ResourcesComponent
+    ResourcesComponent,
+    FooterComponent,
   ],
   imports: [
-    BrowserModule, FormsModule
+    BrowserModule, FormsModule,
   ],
   providers: [Swiper],
   bootstrap: [AppComponent,]

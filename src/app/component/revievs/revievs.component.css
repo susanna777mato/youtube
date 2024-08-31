@@ -25,7 +25,7 @@
   }
   
   .swiper-slide img {
-    height: 270px;
+    height: 350px;
   }
   
   
@@ -42,7 +42,9 @@
     font-size: 30px;
   }
   
-  
+  h2, span, a{
+    font-family: 'Uni Sans', sans-serif;
+  }
 
 
   a{
@@ -87,9 +89,9 @@
         width: 50%;
         margin: 7px;
     }
-  
-    img {
-      height: 100px;
+    
+    .swiper-slide img {
+      height: 270px;
     }
   
     h2 span {

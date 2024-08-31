@@ -1,26 +1,31 @@
-
 <div class="conteiner124">
     <div class="svg">
-        <img class="img-nik" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsbIuITAKrSkdiJyQPt5-J1NFHLTkXbDOMrA&s" alt=""
-    >
-        <h1 class="nik" style=" color: rgb(148, 147, 147); margin-left: 10px;">покупаю ютуб каналы<br>
-             продажа каналов</h1>
+        <img class="img-nik" src="/assets/svg/youtube.svg" alt="">
+        <h1 class="nik" style="color: rgb(148, 147, 147); margin-left: 10px;">покупаю ютуб каналы<br> продажа каналов</h1>
     </div>
-    <div class="nav-text">
-        <span>НАЧАЛО</span>  
-        <span>ОБО МНЕ</span>
-        <span>КАНАЛЫ</span>
-        <span>ПРЕИМУЩЕСТВА</span>
-        <span>ОТЗЫВЫ</span>
-        <span>ЗАРАБОТАЙ</span>
-        <span>РЕСУРСЫ</span>
+    <div class="menu-icon" (click)="toggleMenu()">
+         <img src="assets/svg/burger.svg" alt=""
+         width="40px"
+         height="40px">
+    </div>
+         
+
+    <div class="nav-text" [ngClass]="{'active': isMenuOpen}">
+        <span> <a href="#section1" (click)="onNavClick($event, 'section1')">НАЧАЛО</a></span>  
+        <span> <a href="#section2" (click)="onNavClick($event, 'section2')" >ОБО МНЕ</a></span>  
+        <span> <a href="#section3" (click)="onNavClick($event, 'section3')" >КАНАЛЫ</a></span>  
+        <span> <a href="#section4" (click)="onNavClick($event, 'section4')" >ПРЕИМУЩЕСТВА</a></span>  
+        <span> <a href="#section5" (click)="onNavClick($event, 'section5')" >ОТЗЫВЫ</a></span>  
+        <span> <a href="#section6" (click)="onNavClick($event, 'section6')" >ЗАРАБОТАЙ</a></span>  
+        <span> <a href="#section7" (click)="onNavClick($event, 'section7')" >РЕСУРСЫ</a></span>  
+       
     </div>
 </div>
-<div class="container">
+<div id="section1" class="container">
     <div class="text">
-      <h1 class="zagalovok">Продай свой  youtube канал  выгодно!</h1> 
+      <h1 class="zagalovok">Продай свой  Youtube канал  выгодно!</h1> 
       <br>
-      <p class="p-text" style=" color: rgb(63, 62, 62);">Куплю ваши youtube каналы на выгодных условиях</p>
+      <p class="p-text" style=" color: rgb(63, 62, 62);">Куплю ваши Youtube каналы на выгодных условиях</p>
    </div>
     <div class="img-container">
      <img class="img-me" src="/assets/img/bagrat.png" alt=""

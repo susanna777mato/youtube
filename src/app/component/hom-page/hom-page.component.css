@@ -1,4 +1,5 @@
-.conteiner124{
+
+.conteiner124 {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -7,30 +8,41 @@
     position: fixed;
     background: white;
     z-index: 1000;
+    font-family: 'Uni Sans', sans-serif;
 }
 
-.img-nik{
+.img-nik {
     width: 55px;
-    height: 55px;
+    height: auto;
 }
 
-
-span{
+span {
+  
     cursor: pointer;
     font-weight: 600;
 }
 
-span:hover{
+a{
+  text-decoration: none;
+  color: black;
+}
+
+span:hover {
     color: red;
     transition: all 0.5s ease;
 }
 
-.nik{
+a:hover {
+  color: red;
+  transition: all 0.5s ease;
+}
+
+.nik {
     cursor: pointer;
     font-size: 15px;
 }
 
-.svg{
+.svg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +50,7 @@ span:hover{
     cursor: pointer;
 }
 
-.nav-text{
+.nav-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +58,22 @@ span:hover{
     padding-right: 60px;
     color: black;
     font-size: 15px;
+}
+
+/* Бургер-меню */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.4s;
 }
 
 .p-text{
@@ -87,8 +115,8 @@ span:hover{
     }
 
    .img-nik{
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
 
     .nav-text{
@@ -277,5 +305,49 @@ span:hover{
                 gap: 10px;
              }
         }
+
+        @media screen and (max-width: 768px) {
+          .menu-icon {
+              display: flex;
+            
+          }
+
+          .svg{
+            padding-left: 10px;
+          }
+
+          .conteiner124{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          }
+      
+          .nav-text {
+              display: none;
+              flex-direction: column;
+              width: 100%;
+              position: absolute;
+              top: 35px;
+              gap: 0px;
+              left: 0;
+              background-color: white;
+              border-top: 1px solid rgb(225, 224, 224);
+            
+              padding: 20px 0; 
+              border: 1px solid rgb(225, 224, 224);
+          }
+      
+          .nav-text span {
+              margin: 5px 0;
+              padding: 5px 0;
+              width: 100%;
+              font-size: 12px;
+              padding-left: 10px;
+          }
+      
+          .nav-text.active {
+              display: flex;
+          }
+      }
   } 
 

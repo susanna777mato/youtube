@@ -6,6 +6,10 @@
     height: 70%;
 }
 
+h1, h2{
+    font-family: 'Uni Sans', sans-serif;
+}
+
 .blok{
     width: 400px; 
     border-radius: 20px;
@@ -55,9 +59,9 @@
    font-size: 35px
 }
 
-.h2-ot-100{
-    padding: 10px; 
-    font-size: 1px;
+.pervaia h2{
+    font-size: 27px;
+    padding: 15px;
 }
 
 

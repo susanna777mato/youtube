@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicesPageService } from 'src/app/services/services-page.service';
 
 @Component({
   selector: 'app-atwork',
@@ -11,6 +12,13 @@ export class AtworkComponent implements OnInit {
   inputRange1: any = 1000
   inputRange2 = 5
  
+
+  constructor(private scrollService: ServicesPageService) {}
+
+  onNavClick(event: Event, elementId: string): void {
+    event.preventDefault();
+    this.scrollService.scrollToElement(elementId);
+  }
  
  
   displayValue: string = ""
