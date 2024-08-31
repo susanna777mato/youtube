@@ -121,6 +121,10 @@
       text-align: center;
     }
 
+    .input-group h3{
+      font-size: 12px;
+    }
+
    .income-amount{
     font-size: 30px;
    }
