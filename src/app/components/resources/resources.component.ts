@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./resources.component.css']
 })
 export class ResourcesComponent {
-
+   email = "@cocktail_prod"
 }
