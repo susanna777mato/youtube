@@ -64,7 +64,9 @@
       padding: 10px; 
     }
 
-    
+    .h2-zagalovok{
+      font-size: 30px;
+    }
   
     .blok {
       border: 2px solid black;
