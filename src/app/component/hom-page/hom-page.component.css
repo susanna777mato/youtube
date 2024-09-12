@@ -1,15 +1,18 @@
 
 .conteiner124 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     height: 80px;
+    gap: 20%;
     border-bottom: 1px solid rgb(225, 224, 224);
     position: fixed;
     background: white;
     z-index: 1000;
     font-family: 'Uni Sans', sans-serif;
 }
+
+
 
 .img-nik {
     width: 55px;
@@ -46,7 +49,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 70px;
+  
     cursor: pointer;
 }
 
@@ -55,12 +58,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-right: 60px;
     color: black;
     font-size: 15px;
 }
 
-/* Бургер-меню */
 .menu-icon {
     display: none;
     flex-direction: column;
@@ -82,24 +83,25 @@ a:hover {
 
 .container {
     display: flex;
-    justify-content: space-around;
+     justify-content: center;
+     gap: 15%;
     align-items: center;
     height: 100vh;
     
   }
   
  .zagalovok{
-    font-size: 70px;
+    font-size: 84px;
     margin: 0;
   }
   
   .img-me {
-
-    margin-left: 80px;
+  background-color: aqua;
+    margin-top: 20px;
   }
   
   .text {
-    margin-left: 70px;
+    
     font-family: 'Roboto', Arial, sans-serif; 
   }
 
@@ -139,10 +141,10 @@ a:hover {
         }
       
          .img-me {
-          width: 300px;
-          height: 170px;
+          width: 60%;
+          height: auto;
           margin-left: 0;
-         
+           margin-top: 0;
         } 
 
        .p-text{
@@ -172,40 +174,38 @@ a:hover {
             font-size: 40px;
           }
 
-          .img-me {
-            width: 330px;
-            height: 180px;
-            margin-left: 0;
-           
-          } 
+            .img-me {
+             width: 60%;
+             height: auto;
+          }  
           .container{
             display: flex;
             gap: 70px;
-          }
+          } 
        }
 
 
         @media (min-width: 340px) and (max-width: 356px){
-            .img-me {
-                width: 340px;
-                height: 200px;
+             .img-me {
+                width: 60%;
+                height: auto;
                
-              } 
+              }  
               
                
 
-              .container{
+               .container{
                 display: flex;
                 gap: 50px;
-              }
+              } 
         }
 
         @media (min-width: 357px) and (max-width: 380px){
-            .img-me {
-                width: 350px;
-                height: 200px;
+              .img-me {
+                width: 200px;
+                height: auto;
                
-              } 
+              }   
                 
               .zagalovok{
                 font-size: 45px;
@@ -216,10 +216,10 @@ a:hover {
                  font-size: 30px;
               }
 
-              .container{
+               .container{
                 display: flex;
                 gap: 30px ;
-              }
+              } 
         } 
 
         @media (min-width: 380px) and (max-width: 384px)  {
@@ -228,11 +228,6 @@ a:hover {
                 gap: 50px;
               }
 
-              .img-me {
-                width: 350px;
-                height: 200px;
-               
-              } 
                 
               .zagalovok{
                 font-size: 45px;
@@ -245,10 +240,10 @@ a:hover {
         }
 
         @media (min-width: 385px){
-             .img-me{
-                width: 360px;
-                height: 210px;
-             }
+              .img-me{
+                width: 45%;
+                height: auto;
+             } 
 
              .zagalovok{
                 margin-top: 30px;
@@ -257,15 +252,15 @@ a:hover {
              .container{
                 display: flex;
                 gap: 40px;
-             }
+             } 
         }
 
         @media (min-width: 390px) and (max-width: 460px)  {
-            .img-me {
+            /* .img-me {
                 width: 390px;
                 height: 220px;
                
-              } 
+              }  */
 
               .zagalovok{
                 font-size: 49px;
@@ -286,11 +281,11 @@ a:hover {
         }
 
         @media (min-width: 460px) and (max-width: 1000px)  {
-            .img-me {
+            /* .img-me {
                 width: 450px;
                 height: 240px;
                
-              } 
+              }  */
 
               .zagalovok{
                 font-size: 49px;

@@ -10,6 +10,13 @@ h1, h2{
     font-family: 'Uni Sans', sans-serif;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
 .blok{
     width: 400px; 
     border-radius: 20px;
@@ -88,6 +95,11 @@ h1, h2{
         flex-direction: column;
         gap: 10px;
         height: 100%;
+     }
+
+     .content{
+        flex-direction: column;
+        gap: 20px
      }
      
      .text-h1{
