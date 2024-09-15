@@ -2,16 +2,24 @@
     height: 20%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+  justify-content: space-around;
     width: 100%;
 }
 
-h1,h2,a{
+.container-content{
+  width: 85%;
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+}
+
+span,a{
     font-family: 'Uni Sans', sans-serif;
 }
 
-h1{
-    margin-top: 20px;
+span{
+    margin-top: 25px;
+    font-size: 20px;
 }
    
 a{
@@ -26,7 +34,7 @@ a{
 }
 
 @media (max-width: 1000px){
-  .container{
+  .container-content, .container{
     width: 100%;
     height: 30%;
     flex-direction: column;
@@ -40,13 +48,11 @@ a{
     font-size: 20px;
   }
 
-  h2, h1 {
+  span {
     font-size: 15px;
-  }
-  
-  h1{
     margin-top: 15px;
   }
+  
   img{
     width: 66px;
     height: auto;
